@@ -197,7 +197,7 @@
     // 如果播放本地视频要用 NSURL *url = [NSURL fileURLWithPath:videoURL];
     // 所以替换成URL
     
-    AVPlayerItem *item = [AVPlayerItem playerItemWithURL:url];
+    AVPlayerItem *item = [AVPlayerItem playerItemWithURL:videoURL];
     
     return item;
 }

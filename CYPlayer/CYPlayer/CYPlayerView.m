@@ -80,6 +80,14 @@
     [self play];
 }
 
+-(void)seekToTime:(NSInteger)second{
+    
+    [self pause];
+    
+    [self.player seekToTime:CMTimeMake(second, 1)];
+    
+}
+
 
 
 
