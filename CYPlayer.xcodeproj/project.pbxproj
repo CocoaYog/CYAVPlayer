@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F9D5F55CBFEADA4376E0FE /* libPods-CYPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A78D4A3244395F58E9D629 /* libPods-CYPlayer.a */; };
+		4F9C90231F69244D00BBE009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C90221F69244D00BBE009 /* main.m */; };
+		4F9C90261F69244D00BBE009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C90251F69244D00BBE009 /* AppDelegate.m */; };
+		4F9C90291F69244D00BBE009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C90281F69244D00BBE009 /* ViewController.m */; };
+		4F9C902E1F69244D00BBE009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9C902D1F69244D00BBE009 /* Assets.xcassets */; };
+		4F9C903C1F69244D00BBE009 /* CYPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C903B1F69244D00BBE009 /* CYPlayerTests.m */; };
+		4F9C90471F69244D00BBE009 /* CYPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C90461F69244D00BBE009 /* CYPlayerUITests.m */; };
+		4F9C90551F693EC000BBE009 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9C90541F693EC000BBE009 /* Launch Screen.storyboard */; };
+		4FB4B5991F6A25CD00862576 /* CYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4B5981F6A25CD00862576 /* CYPlayerView.m */; };
+		4FB4B59C1F6A69BD00862576 /* CYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4B59B1F6A69BD00862576 /* CYPlayer.m */; };
+		4FB4B59F1F6A777100862576 /* LPAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4B59E1F6A777100862576 /* LPAVPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9C90381F69244D00BBE009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9C90161F69244D00BBE009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9C901D1F69244D00BBE009;
+			remoteInfo = CYPlayer;
+		};
+		4F9C90431F69244D00BBE009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9C90161F69244D00BBE009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9C901D1F69244D00BBE009;
+			remoteInfo = CYPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		235EA34B5F1E935FD82EF549 /* Pods-CYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYPlayer/Pods-CYPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9C901E1F69244D00BBE009 /* CYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9C90221F69244D00BBE009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F9C90241F69244D00BBE009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F9C90251F69244D00BBE009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F9C90271F69244D00BBE009 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F9C90281F69244D00BBE009 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F9C902D1F69244D00BBE009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F9C90321F69244D00BBE009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9C90371F69244D00BBE009 /* CYPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9C903B1F69244D00BBE009 /* CYPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPlayerTests.m; sourceTree = "<group>"; };
+		4F9C903D1F69244D00BBE009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9C90421F69244D00BBE009 /* CYPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9C90461F69244D00BBE009 /* CYPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPlayerUITests.m; sourceTree = "<group>"; };
+		4F9C90481F69244D00BBE009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9C90541F693EC000BBE009 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4FB4B5971F6A25CD00862576 /* CYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPlayerView.h; sourceTree = "<group>"; };
+		4FB4B5981F6A25CD00862576 /* CYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPlayerView.m; sourceTree = "<group>"; };
+		4FB4B59A1F6A69BD00862576 /* CYPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPlayer.h; sourceTree = "<group>"; };
+		4FB4B59B1F6A69BD00862576 /* CYPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPlayer.m; sourceTree = "<group>"; };
+		4FB4B59D1F6A777100862576 /* LPAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAVPlayer.h; sourceTree = "<group>"; };
+		4FB4B59E1F6A777100862576 /* LPAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAVPlayer.m; sourceTree = "<group>"; };
+		6705370F13FCBE34A8346AF3 /* Pods-CYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYPlayer/Pods-CYPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		C4A78D4A3244395F58E9D629 /* libPods-CYPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9C901B1F69244D00BBE009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F9D5F55CBFEADA4376E0FE /* libPods-CYPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9C90341F69244D00BBE009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9C903F1F69244D00BBE009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9C90151F69244D00BBE009 = {
+			isa = PBXGroup;
+			children = (
+				4F9C90201F69244D00BBE009 /* CYPlayer */,
+				4F9C903A1F69244D00BBE009 /* CYPlayerTests */,
+				4F9C90451F69244D00BBE009 /* CYPlayerUITests */,
+				4F9C901F1F69244D00BBE009 /* Products */,
+				FF01414B77806F73771B3576 /* Pods */,
+				DA6BE7A7CCC59C384D462474 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9C901F1F69244D00BBE009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C901E1F69244D00BBE009 /* CYPlayer.app */,
+				4F9C90371F69244D00BBE009 /* CYPlayerTests.xctest */,
+				4F9C90421F69244D00BBE009 /* CYPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9C90201F69244D00BBE009 /* CYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4B5961F6A227200862576 /* CYPlayer */,
+				4F9C90241F69244D00BBE009 /* AppDelegate.h */,
+				4F9C90251F69244D00BBE009 /* AppDelegate.m */,
+				4F9C90271F69244D00BBE009 /* ViewController.h */,
+				4F9C90281F69244D00BBE009 /* ViewController.m */,
+				4FB4B59D1F6A777100862576 /* LPAVPlayer.h */,
+				4FB4B59E1F6A777100862576 /* LPAVPlayer.m */,
+				4F9C90541F693EC000BBE009 /* Launch Screen.storyboard */,
+				4F9C902D1F69244D00BBE009 /* Assets.xcassets */,
+				4F9C90321F69244D00BBE009 /* Info.plist */,
+				4F9C90211F69244D00BBE009 /* Supporting Files */,
+			);
+			path = CYPlayer;
+			sourceTree = "<group>";
+		};
+		4F9C90211F69244D00BBE009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C90221F69244D00BBE009 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F9C903A1F69244D00BBE009 /* CYPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C903B1F69244D00BBE009 /* CYPlayerTests.m */,
+				4F9C903D1F69244D00BBE009 /* Info.plist */,
+			);
+			path = CYPlayerTests;
+			sourceTree = "<group>";
+		};
+		4F9C90451F69244D00BBE009 /* CYPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C90461F69244D00BBE009 /* CYPlayerUITests.m */,
+				4F9C90481F69244D00BBE009 /* Info.plist */,
+			);
+			path = CYPlayerUITests;
+			sourceTree = "<group>";
+		};
+		4FB4B5961F6A227200862576 /* CYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4B5971F6A25CD00862576 /* CYPlayerView.h */,
+				4FB4B5981F6A25CD00862576 /* CYPlayerView.m */,
+				4FB4B59A1F6A69BD00862576 /* CYPlayer.h */,
+				4FB4B59B1F6A69BD00862576 /* CYPlayer.m */,
+			);
+			path = CYPlayer;
+			sourceTree = "<group>";
+		};
+		DA6BE7A7CCC59C384D462474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4A78D4A3244395F58E9D629 /* libPods-CYPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF01414B77806F73771B3576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				235EA34B5F1E935FD82EF549 /* Pods-CYPlayer.debug.xcconfig */,
+				6705370F13FCBE34A8346AF3 /* Pods-CYPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9C901D1F69244D00BBE009 /* CYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9C904B1F69244D00BBE009 /* Build configuration list for PBXNativeTarget "CYPlayer" */;
+			buildPhases = (
+				4D7BD5ECA08218D2A9753334 /* [CP] Check Pods Manifest.lock */,
+				4F9C901A1F69244D00BBE009 /* Sources */,
+				4F9C901B1F69244D00BBE009 /* Frameworks */,
+				4F9C901C1F69244D00BBE009 /* Resources */,
+				B8D7E185B85FBD8C3946DD71 /* [CP] Embed Pods Frameworks */,
+				445B82F3042088B4EE27CC6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYPlayer;
+			productName = CYPlayer;
+			productReference = 4F9C901E1F69244D00BBE009 /* CYPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F9C90361F69244D00BBE009 /* CYPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9C904E1F69244D00BBE009 /* Build configuration list for PBXNativeTarget "CYPlayerTests" */;
+			buildPhases = (
+				4F9C90331F69244D00BBE009 /* Sources */,
+				4F9C90341F69244D00BBE009 /* Frameworks */,
+				4F9C90351F69244D00BBE009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F9C90391F69244D00BBE009 /* PBXTargetDependency */,
+			);
+			name = CYPlayerTests;
+			productName = CYPlayerTests;
+			productReference = 4F9C90371F69244D00BBE009 /* CYPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F9C90411F69244D00BBE009 /* CYPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9C90511F69244D00BBE009 /* Build configuration list for PBXNativeTarget "CYPlayerUITests" */;
+			buildPhases = (
+				4F9C903E1F69244D00BBE009 /* Sources */,
+				4F9C903F1F69244D00BBE009 /* Frameworks */,
+				4F9C90401F69244D00BBE009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F9C90441F69244D00BBE009 /* PBXTargetDependency */,
+			);
+			name = CYPlayerUITests;
+			productName = CYPlayerUITests;
+			productReference = 4F9C90421F69244D00BBE009 /* CYPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9C90161F69244D00BBE009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaYog;
+				TargetAttributes = {
+					4F9C901D1F69244D00BBE009 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RSFQVD66TP;
+						ProvisioningStyle = Automatic;
+					};
+					4F9C90361F69244D00BBE009 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RSFQVD66TP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F9C901D1F69244D00BBE009;
+					};
+					4F9C90411F69244D00BBE009 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RSFQVD66TP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F9C901D1F69244D00BBE009;
+					};
+				};
+			};
+			buildConfigurationList = 4F9C90191F69244D00BBE009 /* Build configuration list for PBXProject "CYPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9C90151F69244D00BBE009;
+			productRefGroup = 4F9C901F1F69244D00BBE009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9C901D1F69244D00BBE009 /* CYPlayer */,
+				4F9C90361F69244D00BBE009 /* CYPlayerTests */,
+				4F9C90411F69244D00BBE009 /* CYPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9C901C1F69244D00BBE009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9C90551F693EC000BBE009 /* Launch Screen.storyboard in Resources */,
+				4F9C902E1F69244D00BBE009 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9C90351F69244D00BBE009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9C90401F69244D00BBE009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		445B82F3042088B4EE27CC6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYPlayer/Pods-CYPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7BD5ECA08218D2A9753334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8D7E185B85FBD8C3946DD71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYPlayer/Pods-CYPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9C901A1F69244D00BBE009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB4B59C1F6A69BD00862576 /* CYPlayer.m in Sources */,
+				4F9C90291F69244D00BBE009 /* ViewController.m in Sources */,
+				4FB4B59F1F6A777100862576 /* LPAVPlayer.m in Sources */,
+				4FB4B5991F6A25CD00862576 /* CYPlayerView.m in Sources */,
+				4F9C90261F69244D00BBE009 /* AppDelegate.m in Sources */,
+				4F9C90231F69244D00BBE009 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9C90331F69244D00BBE009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9C903C1F69244D00BBE009 /* CYPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9C903E1F69244D00BBE009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9C90471F69244D00BBE009 /* CYPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F9C90391F69244D00BBE009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9C901D1F69244D00BBE009 /* CYPlayer */;
+			targetProxy = 4F9C90381F69244D00BBE009 /* PBXContainerItemProxy */;
+		};
+		4F9C90441F69244D00BBE009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9C901D1F69244D00BBE009 /* CYPlayer */;
+			targetProxy = 4F9C90431F69244D00BBE009 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F9C90491F69244D00BBE009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9C904A1F69244D00BBE009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9C904C1F69244D00BBE009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235EA34B5F1E935FD82EF549 /* Pods-CYPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RSFQVD66TP;
+				INFOPLIST_FILE = CYPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoayog.CYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F9C904D1F69244D00BBE009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6705370F13FCBE34A8346AF3 /* Pods-CYPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RSFQVD66TP;
+				INFOPLIST_FILE = CYPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoayog.CYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F9C904F1F69244D00BBE009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RSFQVD66TP;
+				INFOPLIST_FILE = CYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoayog.CYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYPlayer.app/CYPlayer";
+			};
+			name = Debug;
+		};
+		4F9C90501F69244D00BBE009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RSFQVD66TP;
+				INFOPLIST_FILE = CYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoayog.CYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYPlayer.app/CYPlayer";
+			};
+			name = Release;
+		};
+		4F9C90521F69244D00BBE009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RSFQVD66TP;
+				INFOPLIST_FILE = CYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoayog.CYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYPlayer;
+			};
+			name = Debug;
+		};
+		4F9C90531F69244D00BBE009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RSFQVD66TP;
+				INFOPLIST_FILE = CYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoayog.CYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9C90191F69244D00BBE009 /* Build configuration list for PBXProject "CYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9C90491F69244D00BBE009 /* Debug */,
+				4F9C904A1F69244D00BBE009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9C904B1F69244D00BBE009 /* Build configuration list for PBXNativeTarget "CYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9C904C1F69244D00BBE009 /* Debug */,
+				4F9C904D1F69244D00BBE009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9C904E1F69244D00BBE009 /* Build configuration list for PBXNativeTarget "CYPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9C904F1F69244D00BBE009 /* Debug */,
+				4F9C90501F69244D00BBE009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9C90511F69244D00BBE009 /* Build configuration list for PBXNativeTarget "CYPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9C90521F69244D00BBE009 /* Debug */,
+				4F9C90531F69244D00BBE009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F9C90161F69244D00BBE009 /* Project object */;
+}
